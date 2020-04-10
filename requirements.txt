@@ -1,0 +1,10 @@
+pandas
+matplotlib
+numpy
+scikit-learn
+seaborn
+pytest
+missingno
+category_encoders
+click
+click_pathlib
