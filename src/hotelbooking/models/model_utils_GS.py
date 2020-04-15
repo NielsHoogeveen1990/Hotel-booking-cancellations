@@ -55,3 +55,5 @@ def run(datapath, model_version):
 
     with open(f'src/hotelbooking/trained_models/model_{model_version}.pkl', 'wb') as file:
         pickle.dump(fitted_model, file)
+
+

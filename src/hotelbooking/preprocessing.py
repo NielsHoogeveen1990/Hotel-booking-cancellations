@@ -50,7 +50,9 @@ def replace_months(df):
 
 def encode_cyclical_features(df):
     """
-    This function encodes cyclical date features, such as day of the month, week of the year, et cetera.
+    A common method for encoding cyclical data is to transform the data into two dimensions using a sine and cosine transformation.
+    Where Xsin = sin((2 * pi * x) / max of X) --> e.g. max hours = 23
+    Where Xcos = cos((2 * pi * x) / max of X)
     :param df: dataframe
     :return: dataframe
     """
